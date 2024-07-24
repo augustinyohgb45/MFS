@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Accueil</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <h1>Bienvenue sur la page d'accueil</h1>
+    <ul>
+        <li><a href="{% url 'changement' %}">Changement</a></li>
+        <li><a href="{% url 'incident' %}">Incident</a></li>
+        <li><a href="{% url 'inscription' %}"> Inscription</a></li>
+        <li><a href="{% url 'login' %}">Connexion</a></li>
+    </ul>
+</body>
+</html>
